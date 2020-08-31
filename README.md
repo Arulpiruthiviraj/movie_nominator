@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://img.shields.io/badge/react-react-blue">
 
-## Available Scripts
+<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" >
 
-In the project directory, you can run:
+</p>
 
-### `yarn start`
+<img src="./ReadMeImages/NominateBtnFlScrn.png" width="100%">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 align="center"><a  href="https://solitairevue.firebaseapp.com">Live Demo</a></h2>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<!-- ### [Contributions are Welcome](https://github.com/silent-lad/VueSolitaire/blob/master/CONTRIBUTING.md) -->
 
-### `yarn test`
+## Description
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+OMDB AWARDS is a web app implamented with react where user can Nominate till 5 movies.Here,Through OMDB API,Movies are fetched and displayed
 
-### `yarn build`
+## How to use
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Search** Search your favourite movie through search bar.
+- **Nominate** Click the hover button and Nominate the movies and user have the limit of 5.when user add the movie to nomination button,it will automatically added to Nominations part of web app
+- **Remove** Remove button available in all nominated movies in both Nominations part and result part
+- **Can't Add More** Once user selected all the 5 movies.Buttons will be disabled and show Can't add more
+  <img src="./ReadMeImages/CntAdMrWithBnr.png" width="100%">
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## About the project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### React
 
-### `yarn eject`
+- This Project is developed with React which is a javascript web framework,apps developed with react will be faster and deliver better UX.ReactJS was designed to help improve the total rendered pages from the website server
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Redux
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Redux is an open-source JavaScript library for managing application state.Here,React version of Redux, "React Redux " has been used and supporting libs for redux redux-persist,redux thunk also utilized.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### CSS
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- For stylig CSS and sass which is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheetsis used
 
-## Learn More
+# Mobile Resposiveness
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-Responsive design can help to solve a lot of problems . It will make site mobile-friendly, improve the way it looks on devices with both large and small screens, and increase the amount of time that visitors spend on site. This site is 100% mobile friendly.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="./ReadMeImages/mbl responsiveness.png" width="50%">
 
-### Code Splitting
+## Project setup
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Download or Clone the repository
+create dotenv file using dotenvExample file and add ur own credentials
 
-### Analyzing the Bundle Size
+```
+npm install or yarn install
+npm start  or yarn start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Future scope
 
-### Making a Progressive Web App
+-Adding Animations and stylishing the screen
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Cheers....
